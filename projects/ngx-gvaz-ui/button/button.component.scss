@@ -1,0 +1,43 @@
+button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+
+  &.primary {
+    background-color: rgb(24, 24, 27);
+    color: white;
+
+    &:hover {
+      background-color: rgb(24 24 27 / 80%);
+    }
+  }
+
+  &.secondary {
+    background-color: rgb(221 221 221);
+    color: rgb(24, 24, 27);
+
+    &:hover {
+      background-color: rgb(221 221 221 / 70%);
+    }
+  }
+
+  &.danger {
+    background-color: rgb(220, 38, 38);
+    color: white;
+
+    &:hover {
+      background-color: rgb(220 38 38 / 80%);
+    }
+  }
+
+  &.outline {
+    background-color: white;
+    color: rgb(24, 24, 27);
+    border: 1px solid rgb(228, 228, 231);
+
+    &:hover {
+      background-color: rgb(221 221 221 / 50%);
+    }
+  }
+}
